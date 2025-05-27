@@ -1,0 +1,182 @@
+Assignment Questionnaire
+========================
+NOTE: DO NOT DELETE --> and <--, and place your answers within the marks.
+  Example:
+    IP Address: 192.168.1.1
+    -->
+      IP Address: 130.207.7.210
+    <--
+DO NOT MODIFY THIS LINE OR THE LINES ABOVE
+
+Do not mark up this file other than entering your answers between the arrows.
+Use your README.txt for taking notes and keeping track of your work.
+Thank you for your cooperation.
+
+Info -- BE SURE TO FILL IN YOUR GT LOGIN ID HERE, in lower case.
+====
+
+Example:
+  Your GT Login ID: gburdell3
+  Your Name: George Burdell
+
+-->
+  Your GT Login ID:
+  Your Name:
+<--
+
+Task 1
+=======
+
+1. What is the IP address of the vulnerable Docker container on the Docker network?
+
+Example:
+  IP : 172.17.0.1
+-->
+  IP :
+<--
+
+
+2. On which Apache2 port can you reach the /cgi-bin/shellshock.cgi script?
+
+Example:
+  Port : 9999
+
+-->
+  Port :
+<--
+
+3. On which port is the Python web server running?
+
+Example:
+  Port : 9998
+
+-->
+  Port :
+<--
+
+
+Task 2
+=======
+
+1. What command did you use to exploit the shellshock vulnerability?
+
+Example:
+  Command : curl http://10.0.2.1:6262/cgi-bin/shellshock.cgi
+
+-->
+  Command :
+<--
+
+
+2. What hash value is returned by running ./bin/task2 with your student ID.
+
+-->
+  Hash :
+<--
+
+
+Task 3
+=======
+
+1. Give the full name of the exploit module you used in Step 2.
+
+Example:
+  Module : auxiliary/scanner/portscan/tcp
+
+-->
+  Module :
+<--
+
+
+2. Give the port number you used in Step 8:
+
+Example:
+  PortNumber : 4242
+
+-->
+  PortNumber :
+<--
+
+
+3. What hash value is returned by running ./usr/bin/task3 with your student ID.
+
+-->
+  Hash :
+<--
+
+
+Task 4
+=======
+
+1. What command did you use to spawn a root shell.
+NOTE: system is not an acceptable answer, that's not the command you're looking for.
+
+Example:
+  Command : system "/bin/sh"
+
+-->
+  Command :
+<--
+
+
+2. What hash value is returned by running ./bin/task4 with your student ID.
+
+-->
+  Hash :
+<--
+
+
+Task 5
+=======
+
+1. Give the command you used to run cewl in step 4 in the "Cracking Task 5.2.gpg" section.
+
+Example:
+  Command : cewl with parameters
+-->
+  Command :
+<--
+
+
+2. What is the command you used to run John the Ripper in step 5 in the "Cracking Task 5.2.gpg" section.
+
+Example:
+  Command : command with parameters
+
+-->
+  Command :
+<--
+
+
+3. What is the password for task51.zip.
+-->
+  Password :
+<--
+
+
+4. What is the password for task52.gpg.
+
+Example:
+  Password : Avi@ti0n
+-->
+  Password :
+<--
+
+
+5. Give the hash from running the task51 executable.
+
+-->
+  Hash :
+<--
+
+
+6. Give the hash from running the task52 executable.
+
+-->
+  Hash :
+<--
+
+Task 6
+=======
+
+There is nothing to report here for Task 6, please use your README.txt for notes.
