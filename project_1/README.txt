@@ -45,5 +45,14 @@ For test 5.2,
 1) I use command cewl  http://172.22.0.10:8088/cgi-bin/shellshock.cgi -d 20 -w wordlist_new.txt to generate the wordlist_new.txt file
 2) execute below command to obtain the hash for test52.gpg, using file name task52.hash
   gpg2john task52.gpg > task52.hash
-3) execute: john --wordlist=/home/penteststudent/wordlist_new.txt task52.hash
+3) execute: john --incremental --wordlist=/home/penteststudent/wordlist_new.txt --rules task52.hash
+4) obtain the password: Neuroscience9
+5) unpack the gpg file: gpg --batch --yes --passphrase "Neuroscience9" --output task52 --decrypt task52.gpg
+6) obtain the task52 file without the execution permission
+7) chmod +x task52
+8) execute the task52 to obtain the hash
+    ./task52 mhuang366
+    Here is your task5-2 hash:
+    50cce008f4b5a853980c3f482a1a1748328f7a9547c7abc0d3cb2bf321563445
+
  
