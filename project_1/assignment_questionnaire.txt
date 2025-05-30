@@ -159,7 +159,7 @@ Example:
 Example:
   Password : Avi@ti0n
 -->
-  Password : 
+  Password : Neuroscience9
 <--
 
 
@@ -173,7 +173,7 @@ Example:
 6. Give the hash from running the task52 executable.
 
 -->
-  Hash :
+  Hash : 50cce008f4b5a853980c3f482a1a1748328f7a9547c7abc0d3cb2bf321563445
 <--
 
 Task 6
